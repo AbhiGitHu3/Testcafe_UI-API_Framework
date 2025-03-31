@@ -1,0 +1,14 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_ui": "testcafe chrome ./Tests_UI/*.js",
+    "test_api": "testcafe chrome ./Tests_API/*.js"
+  },
+  "keywords": [],
+  "author": "Abhinandan",
+  "license": "ISC",
+  "description": "This is UI/API automation scripts using TestCafe tool"
+}
